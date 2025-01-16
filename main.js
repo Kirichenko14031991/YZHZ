@@ -24,15 +24,6 @@ import { openRieInfo } from "./cities/croatia/rie.js";
 import { openDubInfo } from "./cities/croatia/dub.js";
 import { openOsiInfo } from "./cities/croatia/osi.js";
 
-// Ініціалізація модального вікна
-const modalId = "registrationModal";
-document.getElementById("openModalBtn").onclick = () => openModal(modalId);
-document.querySelectorAll(".close").forEach((closeBtn) => {
-  closeBtn.addEventListener("click", () => closeModal(modalId));
-});
-closeOnOutsideClick(modalId);
-closeOnEsc(modalId);
-
 // Ініціалізація списку міст
 initializeCityListClose();
 
@@ -57,3 +48,12 @@ document.getElementById("spl").addEventListener("click", openSplInfo);
 document.getElementById("rie").addEventListener("click", openRieInfo);
 document.getElementById("dub").addEventListener("click", openDubInfo);
 document.getElementById("osi").addEventListener("click", openOsiInfo);
+
+// Ініціалізація модального вікна
+const modalId = "registrationModal";
+document.getElementById("openModalBtn").onclick = () => openModal(modalId);
+document.querySelectorAll(".close").forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => closeModal(modalId));
+});
+closeOnOutsideClick(modalId);
+closeOnEsc(modalId);
