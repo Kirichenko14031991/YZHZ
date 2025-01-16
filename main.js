@@ -2,7 +2,7 @@
 
 import { openModal, closeModal, closeOnOutsideClick, closeOnEsc } from "./src/components/modal.js";
 import { initializeCityListClose } from "./src/components/cityList.js";
-import { openCityInfo } from "./cityInfo.js";
+import { openCityInfo } from "./src/components/cityInfo.js";
 import { openVidnInfo } from "./src/components/cities/austria/vidn.js";
 import { openGrazInfo } from "./src/components/cities/austria/graz.js";
 import { openZalInfo } from "./src/components/cities/austria/zal.js";
