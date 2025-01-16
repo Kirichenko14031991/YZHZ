@@ -359,18 +359,39 @@ footer {
 @media (max-width: 600px) {
   /* Додаткові стилі для мобільних пристроїв */
   .city-list-australia {
-    width: 100%; /* Контейнер займає менше місця */
-    height: auto; /* Автоматична висота для вмісту */
-    padding: 3px; /* Менше внутрішніх відступів */
+    width: 100%; /* Контейнер займає всю ширину */
+    height: 100%; /* Встановлюємо висоту на всю висоту контейнера */
+    max-height: none; /* Забираємо обмеження висоти */
+    overflow-y: auto; /* Додаємо вертикальне прокручування */
+    overflow-x: hidden; /* Забороняємо горизонтальне прокручування */
+    padding: 10px; /* Більші внутрішні відступи */
+    border: 1px solid #ccc; /* Рамка для відділення */
+    border-radius: 8px; /* Закруглені кути */
+    background-color: #f9f9f9; /* Світлий фон для кращої видимості */
   }
 
   .city-list-australia li {
     font-size: 14px; /* Зменшуємо шрифт для компактності */
-    margin: 5px 0; /* Зменшуємо відступи між містами */
+    margin: 8px 0; /* Зменшуємо відступи між містами */
   }
 
   .city-list-australia li:hover {
-    transform: scale(1.05); /* Зменшуємо масштаб збільшення */
+    transform: scale(1.05);
+    transition: transform 0.2s ease; /* Зменшуємо масштаб збільшення */
+  }
+
+  /* Для зручного скролінгу на мобільних пристроях */
+  .city-list-australia::-webkit-scrollbar {
+    width: 6px; /* Вузький скролбар */
+  }
+
+  .city-list-australia::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Колір смуги прокручування */
+    border-radius: 3px; /* Закруглення смуги прокручування */
+  }
+
+  .city-list-australia::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; /* Темніший колір при наведенні */
   }
 }
 
@@ -416,18 +437,39 @@ footer {
 @media (max-width: 600px) {
   /* Додаткові стилі для мобільних пристроїв */
   .city-list-belgia {
-    width: 100%; /* Контейнер займає менше місця */
-    height: auto; /* Автоматична висота для вмісту */
-    padding: 3px; /* Менше внутрішніх відступів */
+    width: 100%; /* Контейнер займає всю ширину */
+    height: 100%; /* Встановлюємо висоту на всю висоту контейнера */
+    max-height: none; /* Забираємо обмеження висоти */
+    overflow-y: auto; /* Додаємо вертикальне прокручування */
+    overflow-x: hidden; /* Забороняємо горизонтальне прокручування */
+    padding: 10px; /* Більші внутрішні відступи */
+    border: 1px solid #ccc; /* Рамка для відділення */
+    border-radius: 8px; /* Закруглені кути */
+    background-color: #f9f9f9; /* Світлий фон для кращої видимості */
   }
 
   .city-list-belgia li {
     font-size: 14px; /* Зменшуємо шрифт для компактності */
-    margin: 5px 0; /* Зменшуємо відступи між містами */
+    margin: 8px 0; /* Зменшуємо відступи між містами */
   }
 
   .city-list-belgia li:hover {
-    transform: scale(1.05); /* Зменшуємо масштаб збільшення */
+    transform: scale(1.05);
+    transition: transform 0.2s ease; /* Зменшуємо масштаб збільшення */
+  }
+
+  /* Для зручного скролінгу на мобільних пристроях */
+  .city-list-belgia::-webkit-scrollbar {
+    width: 6px; /* Вузький скролбар */
+  }
+
+  .city-list-belgia::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Колір смуги прокручування */
+    border-radius: 3px; /* Закруглення смуги прокручування */
+  }
+
+  .city-list-belgia::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; /* Темніший колір при наведенні */
   }
 }
 
@@ -473,20 +515,42 @@ footer {
 @media (max-width: 600px) {
   /* Додаткові стилі для мобільних пристроїв */
   .city-list-bulgaria {
-    width: 100%; /* Контейнер займає менше місця */
-    height: auto; /* Автоматична висота для вмісту */
-    padding: 3px; /* Менше внутрішніх відступів */
+    width: 100%; /* Контейнер займає всю ширину */
+    height: 100%; /* Встановлюємо висоту на всю висоту контейнера */
+    max-height: none; /* Забираємо обмеження висоти */
+    overflow-y: auto; /* Додаємо вертикальне прокручування */
+    overflow-x: hidden; /* Забороняємо горизонтальне прокручування */
+    padding: 10px; /* Більші внутрішні відступи */
+    border: 1px solid #ccc; /* Рамка для відділення */
+    border-radius: 8px; /* Закруглені кути */
+    background-color: #f9f9f9; /* Світлий фон для кращої видимості */
   }
 
   .city-list-bulgaria li {
     font-size: 14px; /* Зменшуємо шрифт для компактності */
-    margin: 5px 0; /* Зменшуємо відступи між містами */
+    margin: 8px 0; /* Невеликий відступ між елементами */
   }
 
   .city-list-bulgaria li:hover {
-    transform: scale(1.05); /* Зменшуємо масштаб збільшення */
+    transform: scale(1.05); /* Трохи збільшуємо при наведенні */
+    transition: transform 0.2s ease; /* Плавний ефект при збільшенні */
+  }
+
+  /* Для покращеного скролінгу */
+  .city-list-bulgaria::-webkit-scrollbar {
+    width: 6px; /* Вузький скролбар */
+  }
+
+  .city-list-bulgaria::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Колір смуги прокручування */
+    border-radius: 3px; /* Закруглення смуги прокручування */
+  }
+
+  .city-list-bulgaria::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; /* Темніший колір при наведенні */
   }
 }
+
 
 .city-list-croatia {
   display: none; /* Приховуємо список за замовчуванням */
@@ -531,22 +595,24 @@ footer {
   /* Додаткові стилі для мобільних пристроїв */
   .city-list-croatia {
     width: 100%; /* Контейнер займає всю ширину */
-    max-height: 150px; /* Обмежуємо висоту для прокручування */
+    height: 100%; /* Встановлюємо висоту на всю висоту контейнера */
+    max-height: none; /* Забираємо обмеження висоти */
     overflow-y: auto; /* Додаємо вертикальне прокручування */
     overflow-x: hidden; /* Забороняємо горизонтальне прокручування */
-    padding: 3px; /* Менші внутрішні відступи */
-    border: 1px solid #ccc; /* Додаємо рамку для візуального відділення */
+    padding: 10px; /* Більші внутрішні відступи */
+    border: 1px solid #ccc; /* Рамка для відділення */
     border-radius: 8px; /* Закруглені кути */
     background-color: #f9f9f9; /* Світлий фон для кращої видимості */
   }
 
   .city-list-croatia li {
     font-size: 14px; /* Зменшуємо шрифт для компактності */
-    margin: 5px 0; /* Зменшуємо відступи між містами */
+    margin: 8px 0; /* Зменшуємо відступи між містами */
   }
 
   .city-list-croatia li:hover {
-    transform: scale(1.05); /* Зменшуємо масштаб збільшення */
+    transform: scale(1.05);
+    transition: transform 0.2s ease; /* Зменшуємо масштаб збільшення */
   }
 
   /* Для зручного скролінгу на мобільних пристроях */
