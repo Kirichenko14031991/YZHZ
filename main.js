@@ -27,8 +27,17 @@ import { openOsiInfo } from "./src/components/cities/croatia/osi.js";
 // Ініціалізація списку міст
 initializeCityListClose();
 
+// Ініціалізація модального вікна
+const modalId = "registrationModal";
+document.getElementById("openModalBtn").onclick = () => openModal(modalId);
+document.querySelectorAll(".close").forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => closeModal(modalId));
+});
+closeOnOutsideClick(modalId);
+closeOnEsc(modalId);
+
 // Додавання обробників подій для міст
-document.getElementById("viden").addEventListener("click", openVidnInfo);
+document.getElementById("vidn").addEventListener("click", openVidnInfo);
 document.getElementById("graz").addEventListener("click", openGrazInfo);
 document.getElementById("zal").addEventListener("click", openZalInfo);
 document.getElementById("lin").addEventListener("click", openLinInfo);
@@ -49,11 +58,3 @@ document.getElementById("rie").addEventListener("click", openRieInfo);
 document.getElementById("dub").addEventListener("click", openDubInfo);
 document.getElementById("osi").addEventListener("click", openOsiInfo);
 
-// Ініціалізація модального вікна
-const modalId = "registrationModal";
-document.getElementById("openModalBtn").onclick = () => openModal(modalId);
-document.querySelectorAll(".close").forEach((closeBtn) => {
-  closeBtn.addEventListener("click", () => closeModal(modalId));
-});
-closeOnOutsideClick(modalId);
-closeOnEsc(modalId);
