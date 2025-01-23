@@ -18,32 +18,32 @@ export function openAntInfo() {
 
     <h2>Проживання та житлова допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Житлові послуги – Українське село</a></li>
-        <li><a href="#" target="_blank">Соціальний центр – Тимчасовий захист</a></li>
+        <li><a href="https://www.brussels.be/refugees" target="_blank">Житлові послуги – Українське село</a></li>
+        <li><a href="https://www.cgvs.be/en" target="_blank">Соціальний центр – Тимчасовий захист</a></li>
     </ul>
 
     <h2>Юридична підтримка</h2>
     <ul>
-        <li><a href="#" target="_blank">Отримання статусу біженця</a></li>
-        <li><a href="#" target="_blank">Юридичні консультації – Реєстраційний центр</a></li>
+        <li><a href="https://www.brussels.be/registration" target="_blank">Отримання статусу біженця</a></li>
+        <li><a href="https://www.cgvs.be/en/protection" target="_blank">Юридичні консультації – Реєстраційний центр</a></li>
     </ul>
 
     <h2>Фінансова допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Матеріальна допомога</a></li>
-        <li><a href="#" target="_blank">Допомога в кризових ситуаціях – Карітас Бельгія</a></li>
+        <li><a href="https://www.cpas.brussels" target="_blank">Матеріальна допомога</a></li>
+        <li><a href="https://www.actiris.be" target="_blank">Допомога в кризових ситуаціях – Карітас Бельгія</a></li>
     </ul>
 
     <h2>Медична допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Медичні послуги – Doctors of the World Belgium</a></li>
-        <li><a href="#" target="_blank">Гуманітарна допомога – Червоний Хрест</a></li>
+        <li><a href="https://www.brussels.be/healthcare" target="_blank">Медичні послуги – Doctors of the World Belgium</a></li>
+        <li><a href="https://www.vivalia.be" target="_blank">Гуманітарна допомога – Червоний Хрест</a></li>
     </ul>
 
     <h2>Освіта та інтеграція</h2>
     <ul>
-        <li><a href="#" target="_blank">Інтеграційні програми</a></li>
-        <li><a href="#" target="_blank">Мовні курси для українців</a></li>
+        <li><a href="https://www.integration.brussels" target="_blank">Інтеграційні програми</a></li>
+        <li><a href="https://www.brussels.be/schools" target="_blank">Мовні курси для українців</a></li>
     </ul>
 
     <h2>Працевлаштування</h2>
@@ -54,8 +54,8 @@ export function openAntInfo() {
 
     <h2>Психологічна підтримка</h2>
     <ul>
-        <li><a href="#" target="_blank">Психологічна підтримка – Mental Health Brussels</a></li>
-        <li><a href="#" target="_blank">Консультації – Проекти підтримки</a></li>
+        <li><a href="https://www.actiris.be" target="_blank">Психологічна підтримка – Mental Health Brussels</a></li>
+        <li><a href="https://www.buildingjobs.be" target="_blank">Консультації – Проекти підтримки</a></li>
     </ul>
 
     <h3>Контакти:</h3>
