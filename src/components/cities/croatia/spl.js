@@ -47,7 +47,7 @@ export function openSplInfo() {
 
     <h2>Психологічна підтримка</h2>
     <ul>
-        <li><a href="#" target="_blank">Підтримка – Червоний Хрест</a></li>
+        <li><a href="https://europa.eu" target="_blank">Підтримка – Червоний Хрест</a></li>
     </ul>
 
     <h3>Контакти:</h3>
