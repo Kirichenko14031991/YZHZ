@@ -18,44 +18,44 @@ export function openBrugInfo() {
 
     <h2>Проживання та житлова допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Програми розміщення – Fedasil</a></li>
-        <li><a href="#" target="_blank">Евакуаційний центр</a></li>
+        <li><a href="https://www.brussels.be/refugees" target="_blank">Програми розміщення – Fedasil</a></li>
+        <li><a href="https://www.cgvs.be/en" target="_blank">Евакуаційний центр</a></li>
     </ul>
 
     <h2>Юридична підтримка</h2>
     <ul>
-        <li><a href="#" target="_blank">Юридичні послуги – UA.SUPPORT Бельгія</a></li>
-        <li><a href="#" target="_blank">Консультації – UNHCR Бельгія</a></li>
+        <li><a href="https://www.brussels.be/registration" target="_blank">Юридичні послуги – UA.SUPPORT Бельгія</a></li>
+        <li><a href="https://www.cgvs.be/en/protection" target="_blank">Консультації – UNHCR Бельгія</a></li>
     </ul>
 
     <h2>Фінансова допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Матеріальна допомога – CPAS Брюгге</a></li>
-        <li><a href="#" target="_blank">Соціальна підтримка – OCMW Бельгія</a></li>
+        <li><a href="https://www.cpas.brussels" target="_blank">Матеріальна допомога – CPAS Брюгге</a></li>
+        <li><a href="https://www.actiris.be" target="_blank">Соціальна підтримка – OCMW Бельгія</a></li>
     </ul>
 
     <h2>Медична допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Медичні послуги – Doctors of the World Belgium</a></li>
-        <li><a href="#" target="_blank">Гуманітарна допомога – Червоний Хрест</a></li>
+        <li><a href="https://www.brussels.be/healthcare" target="_blank">Медичні послуги – Doctors of the World Belgium</a></li>
+        <li><a href="https://www.vivalia.be" target="_blank">Гуманітарна допомога – Червоний Хрест</a></li>
     </ul>
 
     <h2>Освіта та інтеграція</h2>
     <ul>
-        <li><a href="#" target="_blank">Мовні курси – Atlas Брюгге</a></li>
-        <li><a href="#" target="_blank">Освіта для дітей</a></li>
+        <li><a href="https://www.integration.brussels" target="_blank">Мовні курси – Atlas Брюгге</a></li>
+        <li><a href="https://www.brussels.be/schools" target="_blank">Освіта для дітей</a></li>
     </ul>
 
     <h2>Працевлаштування</h2>
     <ul>
-        <li><a href="#" target="_blank">Служба зайнятості – VDAB</a></li>
-        <li><a href="#" target="_blank">Можливості роботи – UNHCR Бельгія</a></li>
+        <li><a href="https://www.actiris.be" target="_blank">Служба зайнятості – VDAB</a></li>
+        <li><a href="https://www.buildingjobs.be" target="_blank">Можливості роботи – UNHCR Бельгія</a></li>
     </ul>
 
     <h2>Психологічна підтримка</h2>
     <ul>
-        <li><a href="#" target="_blank">Ментальне здоров'я – Mental Health Belgium</a></li>
-        <li><a href="#" target="_blank">Групи підтримки – Карітас Бельгія</a></li>
+        <li><a href="https://www.mentalhealth.brussels" target="_blank">Ментальне здоров'я – Mental Health Belgium</a></li>
+        <li><a href="https://www.caritas.be" target="_blank">Групи підтримки – Карітас Бельгія</a></li>
     </ul>
 
     <h3>Контакти:</h3>
