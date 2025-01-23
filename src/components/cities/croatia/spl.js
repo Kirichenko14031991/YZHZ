@@ -31,7 +31,7 @@ export function openSplInfo() {
     <h2>Медична допомога</h2>
     <ul>
         <li><a href="https://roteskreuz.at" target="_blank">Екстрена допомога – Червоний Хрест</a></li>
-        <li><a href="#" target="_blank">Європейська картка медичного страхування (EKMS)</a></li>
+        <li><a href="https://hck.hr" target="_blank">Європейська картка медичного страхування (EKMS)</a></li>
     </ul>
 
     <h2>Освіта та інтеграція</h2>
