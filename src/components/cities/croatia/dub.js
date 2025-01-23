@@ -30,7 +30,7 @@ export function openDubInfo() {
 
     <h2>Медична допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Медичні послуги – Ufuplatform</a></li>
+        <li><a href="https://hck.hr" target="_blank">Медичні послуги – Ufuplatform</a></li>
     </ul>
 
     <h2>Освіта та інтеграція</h2>
