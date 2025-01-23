@@ -49,7 +49,7 @@ export function openRieInfo() {
     <h2>Психологічна підтримка</h2>
     <ul>
         <li><a href="https://rct.hr" target="_blank">Реабілітаційний центр після стресу – RCT</a></li>
-        <li><a href="#" target="_blank">Підтримка – Are You Syrious?</a></li>
+        <li><a href="https://europa.eu" target="_blank">Підтримка – Are You Syrious?</a></li>
     </ul>
 
     <h3>Контакти:</h3>
