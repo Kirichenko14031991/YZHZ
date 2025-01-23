@@ -33,7 +33,7 @@ export function openOsiInfo() {
 
     <h2>Медична допомога</h2>
     <ul>
-        <li><a href="#" target="_blank">Медичні послуги – Загребський залізничний вокзал</a></li>
+        <li><a href="https://hck.hr" target="_blank">Медичні послуги – Загребський залізничний вокзал</a></li>
     </ul>
 
     <h3>Контакти:</h3>
