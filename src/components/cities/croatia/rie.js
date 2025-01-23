@@ -31,7 +31,7 @@ export function openRieInfo() {
     <h2>Медична допомога</h2>
     <ul>
         <li><a href="https://unhcr.hr" target="_blank">Медична підтримка – UNHCR Хорватія</a></li>
-        <li><a href="#" target="_blank">Інформація про послуги – European Cancer Organisation</a></li>
+        <li><a href="https://hck.hr" target="_blank">Інформація про послуги – European Cancer Organisation</a></li>
     </ul>
 
     <h2>Освіта та інтеграція</h2>
