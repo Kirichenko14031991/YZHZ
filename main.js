@@ -62,7 +62,12 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Ваші дані успішно відправлені!");
     });
 });
-
+document
+  .getElementById("serviceFilter")
+  .addEventListener("change", function () {
+    showLinksByService();
+    openModal();
+  });
 // Додавання обробників подій для міст
 document
   .getElementById("vidn")

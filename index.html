@@ -21,7 +21,25 @@
       </div>
       <div class="header-line"></div>
     </header>
-
+<div class="filter-section">
+      <label for="serviceFilter">Оберіть послугу:</label>
+      <select id="serviceFilter">
+        <option value="all">Усі послуги</option>
+        <option value="housing">Проживання та житлова допомога</option>
+        <option value="legal">Юридична підтримка</option>
+        <option value="financial">Фінансова допомога</option>
+        <option value="medical">Медична допомога</option>
+        <option value="education">Освіта та інтеграція</option>
+        <option value="psychological">Психологічна підтримка</option>
+      </select>
+    </div>
+    <div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h2>Доступні послуги</h2>
+    <div id="modalLinks"></div>
+  </div>
+</div>
     <button id="openModalBtn" class="button">Реєстрація</button>
     <section>
       <h2>Країни Європейського Союзу</h2>
@@ -177,6 +195,7 @@
     <footer>"© 2025 Допомога біженцям. Усі права захищені."</footer>
 
     <script type="module" src="main.js"></script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
   
